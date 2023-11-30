@@ -1,8 +1,9 @@
+# Python program to check if the input number is odd or even.
+# A number is even if division by 2 gives a remainder of 0.
+# If the remainder is 1, it is an odd number.
 
-DevOps is a software engineering methodology 
-that combines software development (dev) and
-operations (ops). It's a combination of
-practices and tools that aims to improve the
-systems development life cycle. DevOps can 
-also help organizations deliver applications 
-and services faster
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
